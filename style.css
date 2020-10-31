@@ -1,0 +1,57 @@
+body {
+  background-color: violet;
+}
+.submit{
+  background-color: black;color: white;padding: 10px 20px;text-align: center;text-decoration: none;display: inline-block;font-size: 20px;margin: 4px 2px;
+  border: yellowgreen;
+}
+form{
+  padding: 50px;
+  margin: 50px 30px 30px 450px;
+}
+.input{
+  
+  height: 30px;
+  width: 250px; 
+  margin: 10px 0px 5px 0px; 
+  display:flex;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: burlywood;
+}
+#errors li{
+  color: red;
+}
+
+.navbar {
+  color:yellowgreen;
+}
+table, tr, th, td {
+  margin: 20px auto;
+    text-align: center;
+    padding: 16px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: antiquewhite;
+}
